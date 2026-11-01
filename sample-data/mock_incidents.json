@@ -1,0 +1,40 @@
+[
+  {
+    "sys_id": "mock0000000000000000000000000001",
+    "number": "INC0012345",
+    "short_description": "Production application unavailable",
+    "description": "Production application is not responding.",
+    "priority": "P1 - Critical",
+    "state": "In Progress",
+    "assigned_to": "Ravi Kumar",
+    "assignment_group": "SRE Operations",
+    "sys_created_on": "2026-11-01 08:00:00",
+    "sys_updated_on": "2026-11-01 08:45:00",
+    "work_notes": [
+      {
+        "created_at": "2026-11-01 08:45:00",
+        "created_by": "ravi.kumar",
+        "note": "Investigating application logs and database connectivity."
+      }
+    ]
+  },
+  {
+    "sys_id": "mock0000000000000000000000000002",
+    "number": "INC0012346",
+    "short_description": "High CPU utilization on production VM",
+    "description": "CPU utilization exceeded the defined threshold.",
+    "priority": "P2 - High",
+    "state": "New",
+    "assigned_to": "",
+    "assignment_group": "Cloud Operations",
+    "sys_created_on": "2026-11-01 08:15:00",
+    "sys_updated_on": "2026-11-01 08:30:00",
+    "work_notes": [
+      {
+        "created_at": "2026-11-01 08:30:00",
+        "created_by": "cloud.operator",
+        "note": "Initial investigation required."
+      }
+    ]
+  }
+]
