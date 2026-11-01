@@ -1,1 +1,28 @@
-
+{
+  "incident_table": "incident",
+  "journal_table": "sys_journal_field",
+  "incident_fields": [
+    "sys_id",
+    "number",
+    "short_description",
+    "description",
+    "priority",
+    "state",
+    "assigned_to",
+    "assignment_group",
+    "sys_created_on",
+    "sys_updated_on"
+  ],
+  "journal_fields": [
+    "element_id",
+    "element",
+    "value",
+    "sys_created_on",
+    "sys_created_by"
+  ],
+  "work_notes_per_incident": 3,
+  "report_formats": [
+    "csv",
+    "json"
+  ]
+}
