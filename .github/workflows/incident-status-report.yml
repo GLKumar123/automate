@@ -1,23 +1,10 @@
 name: ServiceNow Incident Status Report
-'''
 on:
   schedule:
     - cron: "30 3 * * *"
     - cron: "30 11 * * *"
 
   workflow_dispatch:
-'''
-on:
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: "Select test mode"
-        required: true
-        type: choice
-        default: mock
-        options:
-          - mock
-          - production
 permissions:
   contents: read
 
